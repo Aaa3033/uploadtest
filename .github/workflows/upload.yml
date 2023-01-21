@@ -36,5 +36,5 @@ jobs:
           git config --global user.name 'aaa3032'
           git config --global user.email 'aaa3032@users.noreply.github.com'
           git commit -am "Automated report"
-          git remote set-url --push origin https://Aaa3032:$GITHUB_TOKEN@github.com/uploadtest
+          git remote set-url --push origin https://Aaa3032:$GITHUB_TOKEN@github.com/Aaa3032/uploadtest
           git push
