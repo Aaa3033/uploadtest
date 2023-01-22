@@ -10,7 +10,7 @@ jobs:
       - name: wget
         uses: wei/wget@v1
         with:
-          args: -O psiphon3.exe https://www.psiphon.ca/psiphon3.exe
+          args: -O Persian.zip https://sourceforge.net/projects/capture2text/files/Dictionaries/Persian.zip/download
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
